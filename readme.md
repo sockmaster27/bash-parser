@@ -1,12 +1,8 @@
 # bash-parser
 
-Parses bash source code to produce an AST
+A fork of [`vorpaljs/bash-parser`](https://github.com/vorpaljs/bash-parser) - Parses bash source code to produce an AST
 
-[![Travis Build Status](https://img.shields.io/travis/vorpaljs/bash-parser/master.svg)](http://travis-ci.org/vorpaljs/bash-parser)
-[![Coveralls](https://img.shields.io/coveralls/vorpaljs/bash-parser.svg?maxAge=2592000)](https://coveralls.io/github/vorpaljs/bash-parser)
-[![NPM module](https://img.shields.io/npm/v/bash-parser.svg)](https://npmjs.org/package/bash-parser)
-[![NPM downloads](https://img.shields.io/npm/dt/bash-parser.svg)](https://npmjs.org/package/bash-parser)
-[![Try online](https://img.shields.io/badge/try_it-online!-yellow.svg)](https://vorpaljs.github.io/bash-parser-playground/)
+This fork is focussed at dependency maintenance and will not receive any updates beyond that. No new features, no bug (nor security) fixes.
 
 # Installation
 

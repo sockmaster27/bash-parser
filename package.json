@@ -1,16 +1,26 @@
 {
-  "name": "bash-parser",
-  "version": "0.5.0",
+  "name": "@ericcornelissen/bash-parser",
+  "version": "0.5.1",
   "main": "src/index.js",
   "description": "Standard compliant bash parser",
-  "repository": "vorpaljs/bash-parser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericcornelissen/bash-parser"
+  },
   "license": "MIT",
-  "author": "vorpal-js",
+  "contributors": [
+    {
+      "name": "vorpal-js"
+    },
+    {
+      "name": "Eric Cornelissen"
+    }
+  ],
   "scripts": {
     "doc": "doctoc",
-    "test": "ava && xo --ignore **/built-grammar.js",
+    "test": "ava",
     "build": "mgb ./src/modes posix && mgb ./src/modes bash && mgb ./src/modes word-expansion",
-    "cover-test": "nyc ava && xo --ignore **/built-grammar.js",
+    "cover-test": "nyc ava",
     "cover-publish": "nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [],
@@ -26,9 +36,6 @@
     "nyc": "^7.0.0",
     "xo": "^0.16.0"
   },
-  "files": [
-    "src"
-  ],
   "nyc": {
     "exclude": [
       "src/modes/posix/built-grammar.js",

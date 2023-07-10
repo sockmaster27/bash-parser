@@ -1,0 +1,8 @@
+# Ignore everything
+/*
+
+# Except the ones we want to publish
+!documents/
+!src/
+!license
+!readme.md
