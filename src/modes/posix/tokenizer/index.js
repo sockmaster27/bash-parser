@@ -1,5 +1,5 @@
 'use strict';
-const deepFreeze = require('deep-freeze');
+const deepFreeze = require('../../../vendored/deep-freeze.js');
 const last = require('array-last');
 
 const defaultFields = reducers => ({
