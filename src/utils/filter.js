@@ -1,10 +1,12 @@
 'use strict';
 const curry = require('lodash.curry');
 
-function* filter(pred, xs) {
+function* filterIterator(pred, xs) {
 	for (const x of xs) {
 		if (pred(x)) yield x;
 	}
 }
 
-module.exports = curry(filter, 2);
+const filter = curry(filterIterator, 2);
+
+module.exports = filter;
