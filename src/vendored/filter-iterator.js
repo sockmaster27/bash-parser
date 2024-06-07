@@ -12,3 +12,5 @@ function* filterIterator(xs, pred) {
 // - https://www.npmjs.com/package/filter-iterator
 // - https://github.com/jb55/filter-iterator
 // which is available under the MIT license
+// It was vendored to avoid dependency on this package,
+// which does not declare its license in package.json
